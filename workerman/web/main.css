@@ -2,7 +2,7 @@
 body {
 	margin:0px; padding:0px;
 	font-family: Arial, Helvetica, sans-serif;
-	background:url(/repeat.jpg);
+	background:url(/workerman/example/web/repeat.jpg);
 	font-size:15px;
 	color:#000;
 }

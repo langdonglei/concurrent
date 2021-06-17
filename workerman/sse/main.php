@@ -7,9 +7,9 @@ use Workerman\Protocols\Http\ServerSentEvents;
 use Workerman\Timer;
 use Workerman\Worker;
 
-require_once '../../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$worker = new Worker('http://0.0.0.0:8877');
+$worker = new Worker('http://0.0.0.0:8060');
 
 $worker->onMessage = function (TcpConnection $connection, Request $request) {
     switch ($request->path()) {
